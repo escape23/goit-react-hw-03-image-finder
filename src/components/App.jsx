@@ -16,9 +16,9 @@ class App extends Component {
     selectedImage: null,
   };
 
-  componentDidMount() {
-    this.fetchImages();
-  }
+  // componentDidMount() {
+  //   this.fetchImages();
+  // }
 
   componentDidUpdate(prevProps, prevState) {
     const { searchTerm } = this.state;
